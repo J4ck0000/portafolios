@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://kit.fontawesome.com/83f82e225c.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <title>Portafolio</title>
+</head>
+<body>
+  <header>
+    <nav>
+      
+      <input type="checkbox" id="ckbox">
+      <label for="ckbox" class="drawer">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </label>
+      <i class="fas fa-code"></i>
+
+      
+      <ul class="menu-box">
+        <li><a href="#content" class="fa fa-home"> Inicio</a></li>
+        <li><a href="#about" class="fa fa-address-card"> Sobre mi</a></li>
+        <li><a href="#" class="fa fa-folder"> Proyectos</a></li>
+        <li><a href="#contact" class="fa fa-envelope-open"> contacto</a></li>
+        <a href="CV.pdf" target="_blank"><button class="cv"> Descargar CV</button></a>
+        
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+        <div class="content" id="content">
+          <div class="image">
+            <img src="yo.jpg" class="yo" alt="">
+          </div>
+
+          <div class="presentacion">
+            <img src="yo.jpg" class="yo-2" alt="">
+            <h2>!Hola, bienvenido!</h1>
+            <h1>Soy Martin Nicolas Mora</p>
+            <h2>futuro desarrollador web.</h1>
+          </div>
+
+        </div>
+ 
+
+          
+
+  </main>
+<div class="about" id="about">
+
+  <h1 class="about-skills">Sobre mi</h1>
+  <br>
+  <p>Siempre me ha gustado el mundo de la informática. Todos los dias estoy en constante aprendizaje sobre las tencnologías usadas en la actualidad. </p>
+  <br>
+  <p>Soy autodidacta. Busco el conociemiento y me esfuerzo en superarme para lograr mis objetivos a realizar. </p>
+  <br>
+  <p>Estoy en el aprendizaje del desarrollo web para capacitarme y poder realizar un buen desempeño en esta area.</p>
+  
+  <div class="skills">
+    <h1 class="about-skills titulo-skill">Mis habilidades:</h1>
+    <br>
+    <img src="ht.png" class="icon" alt="">
+    <img src="CSS.png" class="icon" alt="">
+    <img src="java.png" class="icon" alt="">
+    <img src="sharp.png" class="icon" alt="">
+    <img src="py.png" class="icon" alt="">
+  </div>
+</div>
+
+<form class="form" action="https://formspree.io/f/mrgrnoav"
+method="POST" id="contact">
+  <div class="form__container">
+    <h2 class="form_title">Contáctame</h2>
+    <input type="text" class="form__input" placeholder="Nombre:" name="name">
+    <input type="email" class="form__input" placeholder="Email:" name="email">
+    <textarea class="form__input form__input--message" placeholder="Mensaje:" name="message"></textarea>
+    <input type="submit" value="Enviar" class="form__cta">
+  </div>
+</form>
+
+<div class="redes">
+
+  <a href="https://www.facebook.com/martin.mora.796/" class="face"><i class="fab fa-facebook-square"></i></a>
+  <a href="https://github.com/J4ck0000" class="github"><i class="fab fa-github-square"></i></a>
+  
+</div>
+
+  <footer>
+    <p>© 2021, Todos los derechos reservados</p>
+    
+  </footer>
+</body>
+</html>
